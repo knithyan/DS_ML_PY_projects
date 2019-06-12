@@ -1,6 +1,6 @@
 # Welcome to my Data Science/Machine Learning Project Repository!
 
-This repository contains my Machine learning projects scripted using Python.
+This repository contains my DS/ML and other projects scripted using Python.
 
 ## Machine-Learning-Models
 
