@@ -1,7 +1,5 @@
+### Analyze publicly available LendingClub.com data from Kaggle and created a Random Forest model to predict loan repayment, that employs dummy variables to allow categorical features.
 
-"""
-2. Analyzed publicly available LendingClub.com data from Kaggle and created a Random Forest model to predict loan repayment, that employs dummy variables to allow categorical features.
-"""
 
 ## We use lending data from 2007-2010 and classify and predict whether or not the borrower paid back their loan in full.
 
