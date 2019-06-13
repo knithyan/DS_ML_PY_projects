@@ -30,7 +30,7 @@ yelp.head()
 
 ## Exploratory Data Analysis
 
-## create a grid of 5 histograms of text length based off of the star ratings. Reference the seaborn documentation for hints on this
+## create a grid of 5 histograms of text length based off of the star ratings. 
 
 g = sns.FacetGrid(yelp,col='stars')
 g.map(plt.hist,'text length')
