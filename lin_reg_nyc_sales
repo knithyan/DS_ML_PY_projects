@@ -1,4 +1,4 @@
-# Analyzed customer sales data for a global E-commerce company based in NYC selling clothing online. Created a linear regression model and provided recommendations on mobile vs website development to boost sales.
+# Analyzed customer sales data for a global E-commerce company based in NYC selling clothing online. Created a linear regression model and provided recommendations on Mobile vs Website development to boost sales.
 
 # Import libraries
 import pandas as pd
@@ -42,7 +42,6 @@ plt.scatter(y_test,predictions)
 plt.xlabel('Y Test')
 plt.ylabel('Predicted Y')
 
-# calculate these metrics by hand!
 from sklearn import metrics
 
 print('MAE:', metrics.mean_absolute_error(y_test, predictions))
