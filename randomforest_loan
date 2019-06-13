@@ -55,7 +55,7 @@ plt.figure(figsize=(11,7))
 sns.lmplot(y='int.rate',x='fico',data=loans,hue='credit.policy',
            col='not.fully.paid',palette='Set1')
 
-## Create Dummy Variables for Categorical features
+## Create Dummy Variables for Categorical feature, Purpose
 
 cat_feats = ['purpose']
 
