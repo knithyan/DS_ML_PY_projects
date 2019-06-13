@@ -62,7 +62,7 @@ entropy =tf.feature_column.numeric_column('Entropy')
 
 feat_cols = [image_var,image_skew,image_curt,entropy]
 
-##  Create an object called classifier which is a DNNClassifier from learn. Set it to have 2 classes and a [10,20,10] hidden unit layer structure
+##  Creating an object called classifier which is a DNNClassifier from learn. Set it to have 2 classes and a [10,20,10] hidden unit layer structure
 classifier = tf.estimator.DNNClassifier(hidden_units=[10, 20, 10], n_classes=2,feature_columns=feat_cols)
 input_func = tf.estimator.inputs.pandas_input_fn(x=X_train,y=y_train,batch_size=20,shuffle=True)
 classifier.train(input_fn=input_func,steps=500)
